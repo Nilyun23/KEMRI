@@ -61,34 +61,37 @@
 
     <h1>SECTION A: PERSONAL DETAILS</h1>   
 
-    <form action="Submit.html" method="POST">
+    <form action="Thankyou.html" method="POST">
 
         <!--"required" will not let the user carry on without filling the fields-->
         
                    Name: <input type="text" size="70"  name="Fname"  required  placeholder="First Name"/> <br>
                          <input type="text" size="70"  name="Fname"  required  placeholder="Last Name"/> <br>
 
-                    Gender:<input type="radio" value="Gender" name="Age" > Male <br>
-                           <input type="radio" value="Gender" name="Age" > Female <br>
+                    Gender:<br>
+                        <input type="radio" value="Gender" name="Age" > Male <br>
+                        <input type="radio" value="Gender" name="Age" > Female <br>
         
                     Address: <input type="text" size="70"  name="Address"  required  placeholder="Address"/> <br>
 
-                    Mobile Number: <input type="number" size="70"  name="Mob.no"  required  placeholder="Mobile number"/> <br>
+                   <!--Mobile number--><label for ="phone">Mobile Number:</label> <input type="tel" id="phone" name="Phone" placeholder="0123-456-789" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"required><br>
 
                     Email: <input type="text" size="100" name="Email" required  placeholder="Email"/> <br>
 
-                    Date of Birth: <input type="date"/>
+                    Date of Birth: <input type="date" required >
     
     <h1>SECTION B: COURSE DETAILS</h1>
 
                     Name of Degree: <input type="text" size="100"  name="NOD" required  placeholder="Name of Degree"/> <br>     
 
-                    Specialization: <input type="text" size="70" name="Specialization"  required placeholder="Specialization"/>
+                    Specialization: <input type="text" size="70" name="Specialization"  required placeholder="Specialization"/> <br>
 
                     <input type="radio" value="Fulltime" name="Age" > Full-Time <br>
                     <input type="radio" value="Part time" name="Age" > Part-Time <br>
 
-                    Method of Study: <input type="radio" value="MOS" name="Method of study" > By coursework, examination & project <br>
+                    Method of Study: <br>
+
+                                    <input type="radio" value="MOS" name="Method of study" > By coursework, examination & project <br>
                                      <input type="radio" value="MOS" name="Method of study" > By coursework, examination & thesis <br>
                                      <input type="radio" value="MOS" name="Method of study" > By research & thesis only <br>
 
@@ -96,7 +99,7 @@
                            
                     Faculty: <input type="text" size="100" name="Fac" required placeholder="Faculty"/> <br>
 
-                    Upload your Image here: <input type="file" id="img" name="img" accept="Image/*">
+                    Upload your Image here: <input type="file" id="img" name="img" accept="Image/*" required> <br>
 
                     
                     <input type="submit" value="Submit" name="Submit"/>     

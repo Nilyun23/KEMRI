@@ -4,7 +4,7 @@
     width: 250 px;
     height: 250px;
     background-repeat: no-repeat;
-    background-position: left ;
+    background-position: center ;
 }
 
 body{
@@ -54,12 +54,12 @@ a{
   }
 
   table{
-    background-color: rgb(33, 66, 94));
+    background-color:rgb(33, 66, 94) ;
     color: cornsilk;
     padding: 10px;
     width: 500px;
   }
-
+  
   /*Classes-- you can change a particular tag using the class-- all you need is just a dot notation*/
 
   .TopNav{ /* Top NAVIGATION-- (.) is start of class*/
