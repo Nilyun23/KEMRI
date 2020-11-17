@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title> Submit </title>
+
+        <!--Make the website responsive or respond to different screen sizes-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="HandheldFriendly" content="true">
+
+        <!--Link to merge css and html pages together-->
+        
+            <link rel="stylesheet" type="text/css" href="Style.css"/>
+
+
+            <link rel="icon" href="logo.png" type="image/icon type">
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <script>
+                /*Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon*/
+                    function myFunction(){
+                    var x = document.getElementById("myTopNav");
+                    if (x.className === "TopNav") {
+                        x.className += " responsive";
+                    }      else{
+                        x.className = "TopNav";
+                    }
+                }
+                    
+             </script>
+    </head>
+
+    <body >
+
+        <h2 class="logo">Logo here</h2>
+    </br>
+
+
+           
+
+        <!--Hyperlinks to jump us to different pages-->
+
+    <div class="TopNav" id="myTopNav">
+
+        <a href="index.html">Home</a> <!--# makes it link the own page-->
+        <a href="Covid-19.html">Covid-19</a>
+        <a href="Contacts.html">Contacts</a> 
+        <a href="Application.html">Application</a> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+
+    </div>
+
+    <h1>THANK YOU FOR APPLYING!</h1>
+
+    <h2> <p>We are always looking for fresh new ideas and talent, so we're interested in learning how you may add your strengths to our growing team. 
+        We will review your application and contact you for an interview within two weeks if your skills are a match. </h2>
+
+    
+</body>
+<style>
+    .footer {
+      position: bottom;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color:  rgb(33, 66, 94);
+      color: whitesmoke;
+      text-align: center;
+    }
+    </style>
+    
+    <div class="footer">
+      <p>WANT TO KNOW MORE ABOUT KEMRI?
+          REACH US AT TEL:+254722205901 or director@kemri.org
+      </p>
+      <H2>REGIONAL OFFICES</H2>
+      <p>Kenya Medical Research Institute</P>
+        <p> P.O. Box 54840 00200 Off Mbagathi Road. Nairobi, Kenya.</P>
+            <p>Tel: +254 722205901</P>
+        
+                <p> Center for Geographic Medicine Research, Coast</P>
+                    <p>P.O. Box 230-80108, Kilifi Kenya</P>
+                        <p>Tel: +254 709 750</P>
+        
+</html>
