@@ -63,7 +63,7 @@ a{
   /*Classes-- you can change a particular tag using the class-- all you need is just a dot notation*/
 
   .TopNav{ /* Top NAVIGATION-- (.) is start of class*/
-    background-color:  rgb(33, 66, 94);
+    background-color: rgb(33, 66, 94);
     width: auto;
     overflow: hidden;
   }
